@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+}
+.navbar{
+    display: flex;
+}
+.logo{
+    text-decoration: none;
+}
+.logo img{
+    background-repeat: no-repeat;
+    height: 8rem;
+}
+.nav{
+    display: grid;
+    row-gap: 0.1rem;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    margin-left: 15rem;
+    margin-top: 3rem;
+}
+.login{
+    display: grid;
+    row-gap: 1rem;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    margin-left: 90rem;
+    margin-top: -6rem;
+}
